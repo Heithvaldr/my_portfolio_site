@@ -1,0 +1,5 @@
+$('h1').typeTo("EVERYTHING CHANGES");
+$('h2').typeTo("AND I'VE CHANGED");
+$('h3').typeTo("YOUR COMPANY IS CHANGING RIGHT NOW...");
+$('h4').typeTo("I WANT TO BE A PART OF THESE CHANGES");
+

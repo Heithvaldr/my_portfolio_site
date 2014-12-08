@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Adam; 
+    src: url(../fonts/adam.otf); 
+   }
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../images/background_2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+section {
+    position: relative;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+    height: 70px;
+    margin-top: 110px;
+    font-size: 60px;
+    font-family: Adam;
+    color: white;
+}
+h2 {
+    height: 70px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Adam;
+    color: white;
+}
+h3 {
+    height: 10%;
+    top: 540px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Adam;
+    color: white;
+}
+h4 {
+    height: 10%;
+    top: 580px;
+    text-align: center;
+    font-size: 200%;
+    font-family: Adam;
+    color: white;
+}
+.button {
+    height: 80px;
+    width: 80px;
+    background-size: contain;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.main_button {
+    margin: 0 auto;
+    top: 180px;
+    background-image: url(../images/viking_button.png);
+}
+.physically_button {
+    margin: 0 auto;
+    background-image: url(../images/physically_button.png);
+}
+.mindfully_button {
+    margin: 0 auto;
+    background-image: url(../images/mindfully_button.png);
+}
+.skillfully_button {
+    margin: 0 auto;
+    background-image: url(../images/skillfully_button.png);
+}
+.changes {
+    text-align: center;
+    margin-top: 50px
+}
+.change {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Adam;
+    color: white;
+    margin-left: 15px;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.pic {
+    margin-top: 10px;
+    width: 147px;
+    height: 240px;
+}
+.information {
+    font-size: 13px;
+    text-align: left;
+}
+.column {
+    list-style-type: none;
+    float: left;
+    margin-left: 35px;
+}
+li {
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+    margin-top: 30px;
+}
+footer a {
+    margin: 7px;
+    font-size: 30px;
+    display: inline-block;
+}
