@@ -16,6 +16,7 @@ body {
 section {
     position: relative;
     height: 100%;
+    text-align: center;
 }
 h1 {
     text-align: center;
@@ -58,7 +59,7 @@ h4 {
 }
 .main_button {
     margin: 0 auto;
-    top: 180px;
+    margin-top: 50px;
     background-image: url(../images/viking_button.png);
 }
 .physically_button {
@@ -73,11 +74,21 @@ h4 {
     margin: 0 auto;
     background-image: url(../images/skillfully_button.png);
 }
-.changes {
+.changes{
+    display: none;
+}
+.changes.active {
+    display: inline-block;
     text-align: center;
     margin-top: 50px
 }
 .change {
+    display: none;
+}
+.change.active {
+    border-radius: 5%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
     vertical-align: top;
     display: inline-block;
     font-size: 20px;
@@ -91,7 +102,7 @@ a {
     color: white;
 }
 .pic {
-    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
     width: 147px;
     height: 240px;
 }
@@ -102,7 +113,7 @@ a {
 .column {
     list-style-type: none;
     float: left;
-    margin-left: 35px;
+    padding: 0 35px 5px 35px;
 }
 li {
     margin-top: 10px;
@@ -117,4 +128,21 @@ footer a {
     margin: 7px;
     font-size: 30px;
     display: inline-block;
+}
+.changes_buttons a {
+    padding: 0 50px 0 50px;
+    display: inline-block;
+}
+.changes_buttons {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: Adam;
+    color: white;
+}
+.changes p {
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    font-family: Adam;
 }
