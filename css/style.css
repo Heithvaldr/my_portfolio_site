@@ -107,7 +107,11 @@ li {
     margin-top: 10px;
 }
 footer {
+    width: 100%;
+    bottom: 0;
     text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
     vertical-align: middle;
     height: 50px;
 }
