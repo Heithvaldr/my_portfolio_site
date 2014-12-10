@@ -6,7 +6,12 @@
     margin: 0;
     padding: 0;
 }
+html {
+    height: 100%;
+}
 body {
+    width: 100%;
+    height: 100%;
     background: url(../images/background_2.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -19,9 +24,8 @@ section {
     text-align: center;
 }
 h1 {
-    padding: 10px 0 20px 0;
+    padding: 110px 0 20px 0;
     text-align: center;
-    margin-top: 100px;
     font-size: 60px;
     font-family: Adam;
     color: white;
@@ -110,13 +114,11 @@ footer {
     width: 100%;
     bottom: 0;
     text-align: center;
-    margin-bottom: 10px;
-    position: absolute;
     vertical-align: middle;
     height: 50px;
 }
 footer a {
-    margin: 7px;
+    margin: 0 7px 0 7px;
     font-size: 30px;
     display: inline-block;
 }
@@ -135,4 +137,15 @@ footer a {
     display: inline-block;
     color: white;
     font-family: Adam;
+}
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -50px; 
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+footer, .page-wrap:after {
+    height: 50px; 
 }
