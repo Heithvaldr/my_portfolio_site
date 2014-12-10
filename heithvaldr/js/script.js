@@ -1,4 +1,5 @@
 $('h1').typeTo("EVERYTHING CHANGES");
+$('h2').typeTo("AND I'VE CHANGED");
 
 var buttons = document.getElementsByClassName('button'),
     changes = document.getElementsByClassName('changes')[0],
@@ -7,7 +8,6 @@ var buttons = document.getElementsByClassName('button'),
 (function() {
     buttons[0].addEventListener('click', function(){
 	changes.classList.toggle('active');
-        $('h2').typeTo("AND I'VE CHANGED");
     }, false);
 })();
 
@@ -21,9 +21,5 @@ var buttons = document.getElementsByClassName('button'),
     }, false);
 })();
 
-(function() {
-    buttons[1,2].addEventListener('click', function(){
-	$('h3').typeTo("YOUR COMPANY IS CHANGING RIGHT NOW...");
-        $('h4').typeTo("I WANT TO BE A PART OF THESE CHANGES");
-    }, false);
-})();
+$('h3').typeTo("YOUR COMPANY IS CHANGING RIGHT NOW...");
+$('h4').typeTo("I WANT TO BE A PART OF THESE CHANGES");
