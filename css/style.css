@@ -19,33 +19,33 @@ section {
     text-align: center;
 }
 h1 {
+    padding: 10px 0 20px 0;
     text-align: center;
-    height: 70px;
-    margin-top: 110px;
+    margin-top: 100px;
     font-size: 60px;
     font-family: Adam;
     color: white;
 }
 h2 {
-    height: 70px;
+    padding: 10px 0 10px 0;
     text-align: center;
     font-size: 60px;
     font-family: Adam;
     color: white;
 }
 h3 {
+    padding: 10px 0 10px 0;
     height: 10%;
-    top: 540px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Adam;
     color: white;
 }
 h4 {
+    padding: 10px 0 10px 0;
     height: 10%;
-    top: 580px;
     text-align: center;
-    font-size: 200%;
+    font-size: 30px;
     font-family: Adam;
     color: white;
 }
@@ -53,24 +53,15 @@ h4 {
     height: 80px;
     width: 80px;
     background-size: contain;
-    margin-left: 16px;
-    margin-top: 10px;
 }
 .main_button {
     margin: 0 auto;
-    margin-top: 50px;
     background-image: url(../images/viking_button.png);
 }
 .physically_button {
-    margin: 0 auto;
     background-image: url(../images/physically_button.png);
 }
-.mindfully_button {
-    margin: 0 auto;
-    background-image: url(../images/mindfully_button.png);
-}
 .skillfully_button {
-    margin: 0 auto;
     background-image: url(../images/skillfully_button.png);
 }
 .changes{
@@ -79,7 +70,6 @@ h4 {
 .changes.active {
     display: inline-block;
     text-align: center;
-    margin-top: 50px
 }
 .change {
     display: none;
@@ -93,7 +83,6 @@ h4 {
     font-size: 20px;
     font-family: Adam;
     color: white;
-    margin-left: 15px;
     height: 100%;
 }
 a {
@@ -121,7 +110,6 @@ footer {
     text-align: center;
     vertical-align: middle;
     height: 50px;
-    margin-top: 30px;
 }
 footer a {
     margin: 7px;
@@ -129,18 +117,17 @@ footer a {
     display: inline-block;
 }
 .changes_buttons a {
-    padding: 0 50px 0 50px;
+    padding: 10px 120px 20px 120px;
     display: inline-block;
 }
 .changes_buttons {
-    margin-bottom: 15px;
     font-size: 20px;
     font-family: Adam;
     color: white;
 }
 .changes p {
     padding: 10px 30px 10px 30px;
-    font-size: 20px;
+    font-size: 30px;
     display: inline-block;
     color: white;
     font-family: Adam;
