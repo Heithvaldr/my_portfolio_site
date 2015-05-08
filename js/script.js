@@ -2,12 +2,15 @@ $('h1').typeTo("EVERYTHING CHANGES");
 
 var buttons = document.getElementsByClassName('button'),
     changes = document.getElementsByClassName('changes')[0],
-    change = document.getElementsByClassName('change');
+    change = document.getElementsByClassName('change'),
+    gallery = document.getElementsByClassName('gallery')[0];
 
 (function() {
     buttons[0].addEventListener('click', function(){
-	changes.classList.toggle('active');
+        changes.classList.toggle('active');
+        gallery.classList.toggle('active');
         $('h2').typeTo("AND I'VE CHANGED");
+        $('#gallery_header').typeTo("MY PORTFOLIO GALLERY");
     }, false);
 })();
 
