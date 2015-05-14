@@ -3,7 +3,8 @@ $('h1').typeTo("EVERYTHING CHANGES");
 var buttons = document.getElementsByClassName('button'),
     changes = document.getElementsByClassName('changes')[0],
     change = document.getElementsByClassName('change'),
-    gallery = document.getElementsByClassName('gallery')[0];
+    gallery = document.getElementsByClassName('gallery')[0],
+    hexagons = document.getElementsByClassName('hexagons')[0];
 
 (function() {
     buttons[0].addEventListener('click', function(){
@@ -26,7 +27,8 @@ var buttons = document.getElementsByClassName('button'),
 
 (function() {
     buttons[1,2].addEventListener('click', function(){
-	$('h3').typeTo("YOUR COMPANY IS CHANGING RIGHT NOW...");
+        $('h3').typeTo("YOUR COMPANY IS CHANGING RIGHT NOW...");
         $('h4').typeTo("I WANT TO BE A PART OF THESE CHANGES");
     }, false);
 })();
+
