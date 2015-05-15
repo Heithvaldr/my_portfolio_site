@@ -1,0 +1,370 @@
+@font-face {
+    font-family: CodeLight; 
+    src: url(../fonts/CODE_Light.ttf);
+}
+@font-face {
+    font-family: CenturyGothic; 
+    src: url(../fonts/Century_Gothic.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1633px;
+    margin: 15px;
+}
+header, section {
+    background-color: #f6f6f6;
+}
+header {
+    height: 160px;
+}
+nav {
+    margin-left: 570px;
+}
+nav a {
+    margin-right: 60px;
+    letter-spacing: 2px;
+    padding: 20px 9px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-family: CodeLight;
+    font-size: 16px;
+    color: black;
+}
+.active {
+    background-color: #ffea00;
+}
+.logo {
+    margin-left: 119px;
+}
+.logo,nav {
+    margin-top: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.slider { 
+    padding-top: 40px;
+    background-image: url(../images/slider.jpg);
+    width: 1633px;
+    height: 110px;
+}
+h1 {
+    padding-left: 22px;
+    padding-top: 13px;
+    margin-left: 119px;
+    height: 57px;
+    width: 298px;
+    text-transform: uppercase;
+    font-family: CenturyGothic;
+    font-size: 33px;
+    background-color: #424146;
+    color: #ffea00;
+    letter-spacing: 2px;
+}
+.first-part {
+    margin: 60px 0 0 119px;
+}
+.welcome {
+    padding-left: 30px;
+    float: left;
+    width: 870px;
+}
+.welcome-img {
+    float: left;
+}
+h2 {
+    letter-spacing: 1px;
+    line-height: 0.8;
+    text-transform: uppercase;
+    font-family: CenturyGothic;
+    font-size: 28px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.welcome p {
+    word-spacing: 3px;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: CenturyGothic;
+}
+.welcome .bold-p {
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 3px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.left-column {
+    float: left;
+    width: 410px;
+}
+.right-column {
+    padding-left: 35px;
+    float: left;
+    width: 410px;
+}
+.second-part {
+    text-align: center;
+    clear: both;
+    padding-top: 80px;
+}
+h4 {
+    padding-top: 4px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 26px;
+    width: 160px;
+    color:  #ffea00;
+    background-color: #424147;
+    font-size: 18px;
+    font-family: CenturyGothic;
+}
+.chapter-title {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 16px;
+    font-family: CenturyGothic;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.progress-bar-wrap{
+    margin: 0 15px 21px 15px;;
+    height: 29px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: CenturyGothic;
+    font-weight: bold;
+}
+.progress-bar-value{
+    padding-top: 7px;
+    margin-right: 2px;
+    float: left;
+    width: 46px;
+    height: 100%;
+    background: black;
+    color:  #ffea00;
+    font-size: 17px;
+    font-family: CenturyGothic;
+}
+.progress-bar{
+    padding-top: 7px;
+    position: relative;
+    float: left;
+    width: 440px;
+    height: 100%;
+    background: #424147;
+}
+.progress-bar-handler{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:  #ffea00;
+}
+.progress-bar p {
+    padding-left: 14px;
+    text-align: left;
+    padding-top: 7px;
+}
+.photoshop {
+    width: 90%;
+}
+.html-css {
+    width: 87%;
+}
+.wordpress {
+    width: 70%;
+}
+.javascript {
+    width: 75%;
+}
+.illustrator {
+    width: 80%;
+}
+.php {
+    width: 76%;
+}
+.joomla {
+    width: 65%;
+}
+.mysql {
+    width: 85%;
+}
+.progress-bar-wrap-inline .progress-bar-wrap {
+    display: inline-block;
+}
+.third-part {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.third-part .chapter-title {
+    max-width: 970px;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+.member {
+    height: 194px;
+    width: 194px;
+    border-radius: 50%;
+    border: #ffea00 solid 2px;
+}
+.members-wrapper {
+    margin: 50px 0;
+}
+.members-wrapper .member {
+    margin: 0 74px;
+    display: inline-block;
+}
+.job {
+    margin-top: 9px;
+    width: 200px;
+    height: 21px;
+    color: #ffea00;
+    font-size: 16px;
+    font-family: CenturyGothic;
+    text-transform: uppercase;
+    background: #424147;
+}
+
+
+footer {
+    padding-left: 119px;
+    padding-top: 28px;
+    color: white;
+    background: #424147;
+    height: 478px;
+}
+.footer-column {
+    padding-right: 65px;
+    font-family: CenturyGothic;
+    vertical-align: text-top;
+    width: 435px;
+    display: inline-block;
+}
+.footer-column p {
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    font-size: 13px;
+    padding-top: 22px;
+    padding-bottom: 30PX;
+}
+h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.footer-column button {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: CenturyGothic;
+    height: 37px;
+    width: 121px;
+    border: none;
+    background: black;
+    color: white;
+    text-transform: capitalize;
+    border-bottom: #ffea00 solid 2px; 
+}
+.photo-stream {
+    padding: 44px 0 20px 0;
+}
+.photos img {
+    margin: 1px;
+}
+.twiter-title {
+    padding-bottom: 22px
+}
+#twitter_div .twit {
+    padding-bottom: 14px; 
+    padding-top: 0;
+}
+.twit time {
+    padding-left: 44px;
+    font-size: 8px;
+    color: #ffea00;
+}
+.twit img {
+    padding-top: 10px;
+    padding-right: 18px;
+    float: left;
+}
+.twit a {
+    text-decoration: none;
+    color: white;
+}
+.twit span {
+    color: #ffea00;
+}
+#twitter_div .lifehack {
+    padding-left: 0;
+}
+.social-title, .social-links {
+    vertical-align: middle;
+    display: inline-block;
+}
+.social-links {
+    padding-left: 8px;
+}
+.twitter-column {
+    width: 450px;
+}
+.contact-column {
+    width: 350px;
+    padding-left: 50px;
+}
+.info span {
+    color: #ffea00;
+}
+.info p {
+    padding-left: 17px;
+    padding-bottom: 0;
+}
+.info img,p {
+    display: inline-block;
+}
+.contact-title {
+    padding-bottom: 18px;
+}
+.e-mail {
+    padding-top: 20px;
+}
+input[type=text] {
+    background: none;
+    border: none;
+    border-bottom: #ffea00 solid 2px;
+}
+input[type=submit] {
+    background: url(../images/send-letter.png);
+    border: 0;
+    height: 29px;
+    width: 29px;
+ }
+.input {
+    vertical-align: bottom;
+}
+.down-nav {
+    height: 70px;
+    background: black;
+    color: white;
+}
+.down-nav nav {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.down-nav nav a p {
+    color: white;
+}
+.copyright {
+    padding-left: 119px;
+    padding-right: 250px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: CenturyGothic;
+    display: inline-block;
+}

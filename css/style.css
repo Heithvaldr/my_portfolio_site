@@ -179,6 +179,12 @@ footer a {
 	text-decoration: none;
 	border-bottom: 1px solid rgba(150, 150, 150, 0.7);
 }
+#skokov {
+    background-image: url(../images/skokov.png);
+}
+#storeel {
+    background-image: url(../images/storeel.png);
+}
 #xarelto {
     background-image: url(../images/xarelto.png);
 }
